@@ -9,10 +9,17 @@
     <meta name="qc" content="Questions? Concerns?">
     <meta name="documentation" content="Important Figures/Images">
     <link rel="shortcut icon" href="https://cse110-sp25.github.io/Lab2_ScavengerHunt/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      p {
+        color: purple;
+        font-size: 18px;
+      }
+    </style>
   </head>
   <body>
     <header>
-      <h1>Eric Wang Meeting Notes</h1>
+      <h1 style="color: red">Eric Wang Meeting Notes</h1>
       <h2>Date: April 13th, 2025</h2>
 
       <p>We had a lot of fun this meeting, below is a summary and a link tag:</p>
@@ -36,23 +43,27 @@
 
     <main>
       <section id="attendance">
-        <h2>Attendance List</h2>
-        <ul>
-          <li>Eric Wang</li>
-          <li>Johnny Lawrence</li>
-          <li>Daniel LaRusso</li>
-          <li><em>Jason Luv</em></li>
-        </ul>
+        <div>
+          <h2>Attendance List</h2>
+          <ul>
+            <li>Eric Wang</li>
+            <li>Johnny Lawrence</li>
+            <li>Daniel LaRusso</li>
+            <li><em>Jason Luv</em></li>
+          </ul>
+        </div>
       </section>
       <hr>
 
       <section id="agenda">
-        <h2>Agenda</h2>
-        <ol>
-          <li>Discuss how to beat <strong>Kreese and Silver</strong></li>
-          <li>Design new <i>Miyagi-Do</i> gi's</li>
-          <li><b>Crack Devon</b></li>
-        </ol>
+        <div>
+          <h2>Agenda</h2>
+          <ol>
+            <li>Discuss how to beat <strong>Kreese and Silver</strong></li>
+            <li>Design new <i>Miyagi-Do</i> gi's</li>
+            <li><b>Crack Devon</b></li>
+          </ol>
+        </div>  
       </section>
       <hr>
 
@@ -67,12 +78,18 @@
       <hr>
       
       <section id="brainstorm">
-        <h2>Brainstorming</h2>
-        <h3>New Business to Talk About</h3>
-        <ul>
-          <li><strong>Silver and Kreese</strong> hired new goons</li>
-          <li><em>Sekkai Taikai</em> roster is out!</li>
-        </ul>
+        <div class="random-div">
+          <p>USELESS DIV</p>
+        </div>
+
+        <div class="useful-div">
+          <h2>Brainstorming</h2>
+          <h3>New Business to Talk About</h3>
+          <ul>
+            <li><strong>Silver and Kreese</strong> hired new goons</li>
+            <li><em>Sekkai Taikai</em> roster is out!</li>
+          </ul>
+        </div>
       </section>
       <hr>
 
@@ -97,9 +114,15 @@
         <details>
           <summary>Click to see gi designs...</summary>
           <div class="image-div">
-            <img src="https://centurymartialarts.com/cdn/shop/products/miyagi-do-karate-gi-918281_2048x.jpg?v=1687810913" alt="gi design #1">
-            <img src="https://centurymartialarts.com/cdn/shop/products/eagle-fang-karate-gi-590515_2048x.jpg?v=1687810762" alt="gi design #2">
-            <img src="https://m.media-amazon.com/images/I/51NAfPR+4XL._AC_UY1000_.jpg" alt="gi design #3">
+            <div class="first-image"> 
+              <img src="https://centurymartialarts.com/cdn/shop/products/miyagi-do-karate-gi-918281_2048x.jpg?v=1687810913" alt="gi design #1">
+            </div>
+            <div class="second-image"> 
+              <img src="https://centurymartialarts.com/cdn/shop/products/eagle-fang-karate-gi-590515_2048x.jpg?v=1687810762" alt="gi design #2">
+            </div>
+            <div class="third-image"> 
+              <img src="https://m.media-amazon.com/images/I/51NAfPR+4XL._AC_UY1000_.jpg" alt="gi design #3">
+            </div>
           </div>
         </details>
 
@@ -165,6 +188,28 @@
         </form>
       </div>
     </main>
+
+    <div class="absolute-div">
+      <p>I am a floating div!</p>
+    </div>
+
+    <details>
+      <summary>Surprise!</summary>
+      <div class="grid-div">
+        <div class="first-image"> 
+          <img src="https://a.espncdn.com/i/headshots/nba/players/full/1966.png" alt="image #1">
+        </div>
+        <div class="second-image"> 
+          <img src="https://pbs.twimg.com/media/E4vw2ceXoAA4pUi.jpg:large" alt="image #2">
+        </div>
+        <div class="third-image"> 
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBDT_bvtAnV9QJaG3pg4u1CA_Cke9V37NI0A&s" alt="image #3">
+        </div>
+        <div class="fourth-image"> 
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEIkONuQmDfdzrVvTjnrKiVSkfTn7_5pJ2gQ&s" alt="image #3">
+        </div>
+      </div>
+    </details>
 
     <footer>
       <p>Meeting notes footer!</p>
