@@ -1,0 +1,162 @@
+/* Required comment - there is styling also in index.html */
+@import url('https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap');
+
+:root {
+    --primary-color: purple;
+}
+
+* {
+    font-family: "Arial", sans-serif;
+}
+
+#attendance {
+    color: var(--primary-color, #b34494);
+
+    & div {
+        background-color: hsl(155, 62%, 76%);
+        margin-top: 2vh;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+        margin-bottom: 1rem;
+        text-decoration: underline solid black;
+        display: block;
+    }
+}
+
+#agenda {
+    & div {
+        background-color: hsl(155, 62%, 76%);
+        margin: 5px 5pt 5mm 5pt;
+        padding: 5px 5pt 5mm 5pt;
+        border-radius: 10px;
+        border-style: solid;
+        border-color: blue;
+        border-width: 5px;
+        display: block;
+    }
+}
+
+#brainstorm {
+    & .random-div {
+        display: none; /* here just cause i needed two display types */
+    }
+
+    & .useful-div {
+        display: block;
+        height: 20vh;
+        width: 75vw;
+        max-height: 200px;
+        max-width: 1000px;
+    }
+}
+
+.arbitrary-form {
+    background-color: color-mix(in display-p3, color(display-p3 1 0 0) 50%, color(display-p3 1 1 1) 50%);
+}
+
+div {
+    background-color: color(display-p3 0.7 0.8 1);
+    position: relative;
+}
+
+input[type="text"] {
+    border: 2px solid green;
+}
+
+a:hover {
+    color: rgb(223, 122, 145);
+}
+
+a:active {
+    color: blue;
+}
+
+h1, h2, h3 {
+    font-family: "Special Gothic Expanded One", serif;
+}
+
+.absolute-div {
+    position: absolute;
+    top: 500px;
+    left: 500px;
+}
+
+section b {
+    color: orange;
+}
+
+ul > li {
+    color: rgb(107, 118, 243);
+}
+
+strong ~ em {
+    text-decoration-thickness: 2px;
+}
+
+h1 + h2 {
+    text-decoration: underline double;
+}
+
+div.required-list-div {
+    margin: auto;
+    padding-top: 2vh;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 1rem;
+}
+
+section:has(h2) {
+    background-color: rgb(206, 238, 222);
+}
+
+section#qc {
+    & li {
+        text-align: center; /* mandatory text align i guess */
+    }
+}
+
+.image-div {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    
+    & img {
+        max-height: 25rem;
+        max-width: 25rem;
+        flex: 1 1 auto;
+    }
+}
+
+.grid-div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 10px;
+    align-items: center;
+    justify-items: center;
+
+    & img {
+        max-height: 25rem;
+        max-width: 25rem;
+    }
+}
+
+video {
+    max-height: 50rem;
+    max-width: 50rem;
+}
+
+@media (max-width: 1000px) {
+    .absolute-div {
+        display: none;
+    }
+
+    * {
+        position: relative;
+        font-size: 18px; 
+    }
+}
+
+
+
+
