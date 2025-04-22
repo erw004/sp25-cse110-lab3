@@ -1,10 +1,4 @@
----
-name: Custom Issue
-about: Describe issue
-title: "[Custom]: "
-labels: []
-assignees: []
----
+# Issue Template
 
 ## Description
 
